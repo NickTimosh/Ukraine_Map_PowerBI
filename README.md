@@ -3,6 +3,9 @@
 
 ![image](https://github.com/NickTimosh/Ukraine_Map_PowerBI/assets/116592259/426f979c-462f-4bc4-9929-8b5b68143258)
 
+![Screenshot 2023-07-06 181055](https://github.com/NickTimosh/Ukraine_Map_PowerBI/assets/116592259/eebcc038-2e08-46c7-8f02-7b2e4eefe469)
+
+
 ## 👉 0. Завантажити Power BI
 На моєму ютуб-каналі є окреме [відео](https://www.youtube.com/watch?v=JihZvJN3njo&list=PLVhK8BiSrfS5OKHJqoGrBDMTGI5pPiKwO) про встановлення Power BI на ПК
 
