@@ -69,12 +69,13 @@ P.S. Карти інших країн можна знайти за посила�
 
 Формула DAX для кожного регіону виглядатиме наступним чином:
 ```
-Черкаська область lbl =
-VAR CurrentRegion = "Черкаська Область"
-VAR CurrentValue = FORMAT(CALCULATE(SUM('region_tbl'[Value]), 'region_tbl'[Region] = CurrentRegion), "#,##0")
-VAR RegionExists = COUNTROWS(FILTER('region_tbl', 'region_tbl'[Region] = CurrentRegion)) > 0
+Київ lbl = 
+VAR CurrentRegion = "Київ"
+VAR CurrentValue = FORMAT(CALCULATE(SUM(region_tbl[Value]), region_tbl[Region] = CurrentRegion), "#,##0")
+VAR RegionExists = COUNTROWS(FILTER(region_tbl, region_tbl[Region] = CurrentRegion)) > 0
 RETURN
     IF(RegionExists, IF(ISBLANK(CurrentValue) || CurrentValue = "0", CurrentRegion & ": 0", CurrentRegion & ": " & CurrentValue), CurrentRegion & ": No Data")
+
 ```
 
 Отже для кожної області потрібно сформувати такий measure, де вставити актуальну назву області в першому і другому рядках.
