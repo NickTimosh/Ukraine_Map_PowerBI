@@ -9,7 +9,7 @@
 
 
 ## 👉 0. Завантажити Power BI
-На моєму ютуб-каналі є окреме [відео](https://www.youtube.com/watch?v=JihZvJN3njo&list=PLVhK8BiSrfS5OKHJqoGrBDMTGI5pPiKwO) про встановлення Power BI на ПК.
+На ютуб-каналі є окреме [відео](https://www.youtube.com/watch?v=JihZvJN3njo&list=PLVhK8BiSrfS5OKHJqoGrBDMTGI5pPiKwO) про встановлення Power BI на ПК.
 
 ## 👉 1. Завантажити карту
 
